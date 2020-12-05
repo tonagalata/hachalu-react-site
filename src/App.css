@@ -1,0 +1,210 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+  }
+
+  .container h1 {
+    text-transform: uppercase;
+  }
+  
+  .home,
+  .services,
+  .products,
+  .sign-up, .container {
+    display: flex;
+    height: 90vh;
+    max-height: 90%;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: flex-start;
+    letter-spacing: 1px;
+    /* font-size: 3rem; */
+    width: 65vw;
+    margin: 0 auto;
+  }
+  
+  .container .title {
+    margin: 1rem auto;
+    font-size: 3rem;
+  }
+
+  .container div {
+    margin: 1rem;
+  }
+
+  .container .events > .cards {
+    width: 90vw !important;
+    margin: 0 auto;
+  }
+
+  .container {
+    height: 100%;
+  }
+
+  .container h2, h3, p {
+    margin: 1rem;
+  }
+
+  .pic-container-arts {
+    background-image: url('./images/oromo-art-1.jpg');
+    background-position: 100% 25%;
+    background-size: cover;
+    height: 35vh;
+    width: 100%;
+  }
+
+    .pic-container-unity {
+    background-image: url('./images/oromo-unity.jfif');
+    background-position: 100% 45%;
+    background-size: cover;
+    height: 35vh;
+    width: 100%;
+  }
+
+  .pic-container-peace {
+    background-image: url('./images/peace-democracy.jpg');
+    background-position: 100% 45%;
+    background-size: cover;
+    height: 35vh;
+    width: 100%;
+  }
+
+  .pic-container-fund {
+    background-image: url('./images/fundraising.jpg');
+    background-position: 100% 45%;
+    background-size: cover;
+    height: 35vh;
+    width: 100%;
+  }
+
+  .pic-container-charity {
+    background-image: url('./images/oromo-charity.jpg');
+    background-position: 100% 45%;
+    background-size: cover;
+    height: 35vh;
+    width: 100%;
+  }
+
+  .services {
+    background-image: url('./images/img-2.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+    font-size: 100px;
+  }
+  
+  .products {
+    background-image: url('./images/img-1.jpg');
+    background-position: center;
+    background-size: fill;
+    background-repeat: no-repeat;
+    color: #fff;
+    font-size: 100px;
+  }
+  
+  .sign-up {
+    background-image: url('./images/img-8.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+    font-size: 100px;
+  }
+
+  .contact-row {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    width: 80vw;
+  }
+
+  .contact {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    width: 80vw;
+  }
+
+  .contact p {
+    width: 80% !important;
+  }
+
+  .contact p textarea {
+    height: 30vh !important;
+    padding: 1rem;
+  }
+
+  .contact-row {
+    width: 100%;
+  }
+
+  .contact-row > form .input-field {
+    width: 100% !important;
+  }
+
+  .contact-row > form .btn,  .contact .btn{
+    margin: 0 !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  } 
+
+  .peace__items {
+    display: flex;
+    /* flex-direction: column; */
+  }
+
+  .peace__items > li {
+    margin-bottom: 24px;
+    list-style-type: none;
+    border: 1px solid rgba(100, 100, 100, 0.1);
+    border-radius: 5px;
+    text-align: center;
+    margin: 1rem auto;
+    margin-right: 1rem;
+    /* width: 300px; */
+    height: 300px;
+    box-shadow: -5px 6px 2px 3px rgba(100, 100, 100, .2);
+  }
+
+  .peace__items > li > div {
+    text-align: left;
+  }
+
+  @media only screen and (min-width: 1024px) {
+    .peace__items {
+      display: flex;
+    }
+  }
+
+  @media only screen and (max-width: 920px) {
+    .peace__items {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+
+  .peace_item {
+    margin: 0 auto;
+    width: 100%;
+  }
+
+  .peace_item h2 {
+    text-align: center;
+  }
+
+  h5 {
+    color: #fff;
+  }
+
+  figure {
+    margin: 0px !important;
+  }
